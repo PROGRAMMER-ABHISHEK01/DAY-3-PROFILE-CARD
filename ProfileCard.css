@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #666060;
+    font-family: "poopins",sans-serif;
+    color: #FFF;
+}
+.box1{
+    width: 30%;
+    height: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 28px;
+    background: #666060;
+    box-shadow:  -24px 24px 48px #333030,
+             24px -24px 48px #999090;
+             transition: .5s;
+}
+.box1:hover{
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+#left{
+    color: white;
+}
+.imgbox{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: 	#FFF;
+    background-image: url(Image/Ak\ in\ jacket.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    margin-left: 38%;
+    outline: 2px solid 	#FFF;
+    outline-offset: 5px;
+    transition: .5s;
+}
+.imgbox:hover{
+    scale: 1.1;
+    cursor: pointer;
+    background-color: rgb(2, 2, 2);
+    outline-color: rgb(2, 2, 2);
+}
+h3{
+    text-align: center;
+    color: white;
+    margin: 15px;
+    transition: .5s;
+    font-weight: 600;
+}
+h3:hover{
+    color: rgb(2, 2, 2);
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+h4{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    transition: .5s;
+}
+h4:hover{
+    color: rgb(2, 2, 2);
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+#ui:hover{
+      letter-spacing: 5px;
+      cursor: pointer;
+}
+.btn{
+    margin-left: 50px;
+}
+button{
+    margin-top: 20px;
+    width: 30%;
+    height: 8%;
+    border: none;
+    transition: .5s;
+    border-radius: 3px;
+}
+#btn1{
+    background-color: white;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 600;
+    margin-left: 80px;
+    
+}
+#btn1:hover{
+    background-color: rgb(2, 2, 2);
+    color: white;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+#btn2{
+    background-color: white;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+#btn2:hover{
+    background-color: rgb(2, 2, 2);
+    color: white;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+h5{
+   text-align: center;
+   margin-top: 20px;
+   transition: .5s;
+   font-weight: 800;
+}
+h5:hover{
+    letter-spacing: 5px;
+    color: rgb(2, 2, 2);
+    cursor: pointer;
+}
+.sk{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    transition: .5s;
+}
+.skills1{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 2px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size: large;
+    margin-left: 25px;
+}
+.skills2{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 2px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size: large;
+    margin-left: 10px;
+}
+.skills3{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 2px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size: large;
+    margin-left: 10px;
+}
+
+.skills4{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 2px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size: large;
+    margin-left: 10px;
+}
+.skills1:hover{
+    background-color: rgb(2, 2, 2);
+    color: white;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.skills2:hover{
+    background-color: rgb(2, 2, 2);
+    color: white;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.skills3:hover{
+    background-color: rgb(2, 2, 2);
+    color: white;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.skills4:hover{
+    background-color: rgb(2, 2, 2);
+    color: white;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+h6{
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+a{
+    text-align: center;
+}
+.git{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+#me{
+    color: black;
+    transition: .5s;
+}
+#me:hover{
+    font-size: 1.2em;
+    color: #FFF;
+    background: linear-gradient(to right, red , blue);
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+}
